@@ -1,0 +1,53 @@
+name: Bug report
+description: Something in the app does not work the way it should
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. If the problem is a wrong answer or a mistake in a lesson, please use the "Content correction" template instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open Practice
+        2. Start the speed round
+        3. ...
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Me, then About
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: Pixel 7, Android 15
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Does it depend on the theme?
+      options:
+        - Not sure
+        - Happens in every theme
+        - Only in one theme (say which below)
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots are helpful.

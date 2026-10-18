@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # Workflow actions only. App dependencies are tied to the Expo SDK version and are
+  # updated with `npx expo install --fix`, so automatic bumps would break the build.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
