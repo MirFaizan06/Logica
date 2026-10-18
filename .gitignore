@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# generated native projects (created on demand by `expo prebuild`)
+/android
+/ios
+
+# signing material and secrets
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.pem
+.env
+.env.*
+!.env.example
+
+# logs and editors
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# local tooling
+.claude/
