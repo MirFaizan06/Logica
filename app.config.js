@@ -76,8 +76,8 @@ module.exports = {
     extra: {
       // Where the in-app updater looks for new releases (GitHub Releases).
       github: {
-        owner: process.env.LOGICA_GH_OWNER || 'techbytesdesign',
-        repo: process.env.LOGICA_GH_REPO || 'logica',
+        owner: process.env.LOGICA_GH_OWNER || 'MirFaizan06',
+        repo: process.env.LOGICA_GH_REPO || 'Logica',
       },
     },
   },
